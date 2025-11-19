@@ -149,6 +149,7 @@ Any player who requests to be banned from a department or from the server may be
 | Griefing | Abandoning a role[^abandoningRole] | W - 5d RB | 3d - 7d RB | Indef RB | |
 | Griefing | Antag rolling | 12hr - 3d GB | 3d - 7d GB | **7d** - 7.5d GB | |
 | Griefing | Damage/disruption to arrivals/arrivals shuttle | 12hr - 3d GB | 3d - 7d GB | 7d - 15d GB | |
+| Escalation | Validhunting[^validhunting] | W | 12hr - 1d GB | 3d GB | 7d GB | |
 | Escalation | Over escalation[^eachVictim] | W | 12hr GB | 3d GB | **7d** - 7.5d GB |
 | Escalation | RDM[^eachVictim] | **1d** - 3d GB | 5d GB | **9d** - 9.5d GB | Indef GB |
 | Escalation | Over escalation or RDM that is a secondary result of station sabotage[^stationSabotageRDM] | 12hr GB | 3d GB | **7d** - 7.5d GB | |
@@ -188,6 +189,8 @@ Any player who requests to be banned from a department or from the server may be
 [^abandoningRole]: This includes frequently disconnecting in an important role, disconnecting in an important role without notification when there is reason to believe that the disconnection was not urgent, and failing to attempt to perform the duties of a role.
 
 [^requiresIntent]: Offenses where the admin does not believe a violation to have been intentional may be reduced to a warning and do not need to be considered a past offense when evaluating guidelines for future offenses.
+
+[^validhunting]: Validhunting constitutes a non-security player actively seeking antagonists with the intent to fight/kill them. Bartenders seeking out lings constitutes validhunting; chaplains hunting heretics does not.
 
 ## Modifiers Tables
 
