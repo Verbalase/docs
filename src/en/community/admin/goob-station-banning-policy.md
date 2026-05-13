@@ -113,7 +113,7 @@ Any player who requests to be banned from a department or from the server may be
 | Non-grouping | ERP | Indef GB | | | |
 | Non-grouping | Sexual content | W - 3d GB | 7d GB | Indef GB | |
 | Non-grouping | Metacommunications | W - week GB | Indef GB | | |
-| Non-grouping | No Intent to Roleplay(NITRP) | W - **12h** | 1d | 3d | Indef |
+| Non-grouping | No Intent to Roleplay(NITRP) | W - **12h** GB | 1d GB | 3d GB | Indef GB |
 | Non-grouping | Ban Evasion | Hard Voucher Ban | If after an accepted hard voucher ban, permanent ban.<br/>Otherwise, extend hard voucher ban to 6 months from evasion attempt. | | |
 | Non-grouping | Multi-keying | W - **Indef** GB | Indef GB | | |
 | Non-grouping | Ahelp misuse in bad faith[^badFaith] | **W** - 12hr GB | 12hr - 3d GB | **7d** - 7.5d GB | |
