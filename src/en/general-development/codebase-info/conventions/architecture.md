@@ -1,4 +1,43 @@
-﻿# Architecture Conventions
+﻿# Code Architecture Conventions
+
+## Composition > Singletons
+
+- **Composition** is when a single component holds a single function.
+- **Singleton** is when a single component holds multiple functions.
+
+In general, the main coding principle you have to follow is to **prefer composition to singletons**.
+
+The issue with "singleton" design is the lack of modularity. When all functionality is tied to a single component, it becomes harder to tweak the structure further.
+
+**Always split the functionality between multiple components and systems**. The simplest way to imagine how it should work is to think about how to implement your mechanic without ever actually saying its name in C#.
+
+<details>
+    <summary>Bingle code design example</summary>
+
+Let's take Bingles as an example for this architecture strategy.
+
+On the base level, Bingle mechanics are simple:
+- A pit spawns from a gamerule;
+- This pit works just like a chasm, gets points when items or people fall in, and spawns Bingles when enough points are reached;
+- Tiles spread randomly around the pit when some amount of points is reached, and living Bingles get upgraded when they drag enough items into the pit.
+
+### The intuitive way
+
+The most straightforward way to add Bingles is to assign a single component to the Bingle pit and a single component to Bingles, then code all necessary mechanics in a single system. That will be the fastest and easiest path, and everything will work just fine for a bit of time.
+
+But that strategy makes it really hard to implement a new feature for bingles because of how hardcoded they are to their own structure!
+
+### How to implement Bingles properly
+
+Pit should use the same code as chasms, but instead of deleting the entities it should store them and add points to some generic internal counter. That requires rewriting `ChasmSystem` to be more generic, since it's hardcoded to deleting fallen entities, and adding components like `ChasmContainerComponent` that force the chasm to store the entity and `ChasmChargeComponent` that adds a charge to a chasm entity.
+
+Then a new system that spawns entities when a certain amount of charges on an entity is reached is required, so the pit can spawn Bingles when enough items are dragged in.
+
+A similar system for tile spreading is needed in order to randomly spawn bingle floors around the pit.
+
+As the result, instead of just copy-pasting or hardcoding, we made a lot of generic components that can be later used for any other purposes, not just Bingles!
+
+</details>
 
 ## In-simulation or out-of-simulation
 
@@ -37,22 +76,24 @@ Here are some of the differences between how in-simulation and out-of-simulation
 | Check elapsed time                  | `IGameTiming.CurTime`   | `IGameTiming.RealTime`, `(R)Stopwatch`, `DateTime`, etc.                                         |
 | Send custom network messages        | Networked entity events | Custom `NetMessage`                                                                              |
 
-### Dependencies On Other Systems
-Inside an entity system, prefer a system dependency instead of resolving the system using the IoCManager. For example, instead of:
+## Dependencies
+Inside an entity system, prefer a system dependency instead of resolving the system using the IoCManager.
 
+Bad:
 ```csharp
 var random = IoCManager.Resolve<IRobustRandom>();
 random.Prob(0.1f);
 ```
 
-Add an entity system dependency:
-
+Good:
 ```csharp
 [Dependency] private readonly IRobustRandom _random = default!;
 _random.Prob(0.1f);
 ```
 
-### C\# Events vs EventBus Events
+## Code Design Choices
+
+### C# Events vs EventBus Events
 The EventBus should generally be used over C# events where possible. C# events can leak, especially when used with components which can be created or removed at any time.
 
 C# events should be used for out-of-simulation events, such as UI events.
@@ -61,7 +102,7 @@ Remember to *always* unsubscribe from them, however!
 ### Async vs Events
 For things such as DoAfter, always use events instead of async.
 
-Async for any game simulation code should be avoided at all costs, as it's generally virulent, cannot be serialized (in the case of DoAfter, for example), and usually causes icky code.
+Async for any game simulation code should be **avoided at all costs**, as it's generally virulent, cannot be serialized (in the case of DoAfter, for example), and usually causes icky code.
 Events, on the other hand, tie in nicely with the rest of the game's architecture, and although they aren't as convenient to code, they are definitely way more lightweight.
 
 ### Enums vs Prototypes

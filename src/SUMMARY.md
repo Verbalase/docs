@@ -38,6 +38,8 @@ General Development
 	- [Module Conventions](en/general-development/codebase-info/conventions/modules.md)
   - [Pull Request Guidelines](en/general-development/codebase-info/pull-request-guidelines.md)
   - [Codebase Organization](en/general-development/codebase-info/codebase-organization.md)
+  - [Goob Reforged](en/general-development/codebase-info/goob-reforged/goob-reforged.md)
+    - [Reforged Modules](en/general-development/codebase-info/goob-reforged/reforged-modules.md) 
 - [Feature Proposals](en/general-development/feature-proposals.md)
   - [Feature Proposal Template](en/templates/proposal.md)
   - [Expected Team Decorum & Usage](en/general-development/feature-proposals/expected-feature-proposal-decorum.md)
