@@ -62,11 +62,6 @@ flowchart TD
     style GoobShared stroke:#3498db
     GoobCommon[Content.Goobstation.Common]
     style GoobCommon stroke:#3498db
-
-    ModuleServer[Content.Modules.Server]
-    style GoobShared stroke:#3498db
-    ModuleClient[Content.Modules.Client]
-    style GoobCommon stroke:#3498db
     
     subgraph CoreModules["Core Modules"]
         CoreServer
@@ -97,8 +92,6 @@ flowchart TD
     CoreShared --> GoobShared
     CoreServer --> GoobServer
     CoreClient --> GoobClient
-    GoobServer --> ModuleServer
-    GoobClient --> ModuleClient
 ```
 
 This means:
@@ -137,8 +130,6 @@ flowchart TD
     style Lavaland stroke:#6b9bb3
     Utils[Utils]
     style Utils stroke:#6b9bb3
-    Modules[".Modules projects (end)"]
-    style Utils stroke:#6b9bb3
 
     subgraph CustomModules["Custom Modules"]
         Goobstation
@@ -150,10 +141,6 @@ flowchart TD
     Core --> Goobstation
     Core --> Lavaland
     Core --> Utils
-
-    Goobstation --> Modules
-    Lavaland --> Modules
-    Utils --> Modules
 ```
 
 The only exception for that convention are **library modules** that provide some general tools or API for other modules to use.
@@ -174,8 +161,6 @@ flowchart TD
     style Lavaland stroke:#6b9bb3
     Utils[Utils]
     style Utils stroke:#6b9bb3
-    Modules[".Modules projects (end)"]
-    style Utils stroke:#6b9bb3
 
     subgraph CustomModules["Custom Modules"]
         Goobstation
@@ -188,9 +173,6 @@ flowchart TD
 
     Utils --> Goobstation
     Utils --> Lavaland
-
-    Goobstation --> Modules
-    Lavaland --> Modules
 ```
 
 ## Special module projects

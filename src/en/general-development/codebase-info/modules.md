@@ -1,8 +1,4 @@
-﻿# Modules Conventions
-
-```admonish warning "Attention: Placeholder!"
-This section is a placeholder, pending an updated guide to be written
-```
+﻿# Modules
 
 ## What?
 

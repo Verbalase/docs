@@ -60,20 +60,93 @@ When possible, try using the `EntitySystem` [proxy methods](https://github.com/s
   <summary>Examples (click to expand)</summary>
 
 ```csharp
-// Without proxy methods...
+// Without proxy methods - bad
 EntityManager.GetComponent<MetaDataComponent>(uid).EntityName;
 
-// With proxy methods
+// With proxy methods - good
 Name(uid);
 
-// Without proxy methods...
+// Without proxy methods - bad
 EntityManager.GetComponent<TransformComponent>(uid).Coordinates;
 
-// With proxy methods
+// With proxy methods - good
 Transform(uid).Coordinates;
 ```
 
 </details>
+
+### Update loops
+A lot of old code is accumulating frametime inside update loops to decide when to next run it.
+
+Accumulator example (bad):
+```csharp
+  public override void Update(float frameTime)
+  {
+    var query = EntityQueryEnumerator<UpdateLoopExampleComponent>();
+    while (query.MoveNext(out var uid, out var comp))
+    {
+      comp.Accumulator += frameTime;
+
+      if (comp.Accumulator < UpdateInterval) 
+          continue;
+
+      comp.Accumulator -= UpdateInterval;
+      
+      // Code here
+    }
+```
+
+This is bad because of those reasons:
+1. This makes the update loop impossible to synchronize between server and client, causing prediction and networking issues.
+2. This approach uses the `float` type, and it is not precise enough in case of update loops, so it may cause rounding issues when the game is launched for a long time.
+3. This constantly does the addition operation, which isn't bad on its own, but when there are hundreds of systems doing that the overhead can beocme noticeable.
+
+All of the above problems can be fixed by using `TimeSpan` type and `IGameTiming`.
+
+TimeSpan example (good):
+```csharp
+    [Dependency] private readonly IGameTiming _timing = default!;
+
+    public override void Initialize()
+    {
+        SubscribeLocalEvent<UpdateLoopExampleComponent, MapInitEvent>(OnMapInit)
+    }
+    
+    private void OnMapInit(Entity<UpdateLoopExampleComponent> ent, ref MapInitEvent args)
+    {
+        // Set the first update time after the entity is spawned.
+        // Without this it would update every single tick until NextUpdate catches up with the server time.
+        ent.Comp.NextUpdate = _timing.CurTime + ent.Comp.UpdateInterval;
+        Dirty(ent);
+    }
+
+    public override void Update(float frameTime)
+    {
+        // CurTime is calculated so we do it only once outside the update loop instead of for every sigle entity.
+        var curTime = _timing.Curtime;
+        // Loop over all components, ignoring paused entities.
+        var query = EntityQueryEnumerator<UpdateLoopExampleComponent>();
+        while (query.MoveNext(out var uid, out var comp))
+        {
+            if (comp.NextUpdate < curTime)
+                continue; // Not enough time has passed since the last update.
+        
+            // Set the time for the next update.
+            // Don't use
+            // comp.NextUpdate = curTime + UpdateInterval;
+            // because that eats the remainder with every update, causing the update loop to run slightly less often
+            // than given by UpdateInterval, which will be imprecise and can cause problems over large time durations.
+            comp.NextUpdate += UpdateInterval;
+        
+            // Dirty the component so that the client can reroll the NextUpdate datafield during predcition.
+            // Without this you will get mispredicts.
+            Dirty(uid, comp);
+        
+            // Do stuff here.
+        }
+    }
+```
+
 
 ## Events
 
