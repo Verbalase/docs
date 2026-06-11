@@ -240,7 +240,7 @@ An antagonist token may only be redeemed for the following roles if the same rol
 Admins have discretion over when antagonist tokens can be redeemed; if the round is too chaotic, they can defer redemption to another round. The exact reasoning for deferral should be kept vague to prevent players from guessing which antagonists are present in the round.
 
 ### Admin Strikes and Demotion
-Admin strikes are issued by a Head Admin as a punishment for breach of conduct.
+Admin strikes are issued by a head game administrator as a punishment for breach of conduct.
 When an Admin receives a total of three recent active strikes, they are to be demoted from their position immediately.
 
 Game administrators may also be removed at any time, at the discretion of the head game administrators.
