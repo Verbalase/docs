@@ -4,60 +4,64 @@
 This applies only to our Goob Station server.
 ```
 
-## 1. General Adminning
-General admin-guidelines. These apply to all ranks of admins: Headmins, Game Admins, and Trial Game Admins.
-#### 1.1 **Administrators will be held responsible for their actions.**
-Administrators are **not unaccountable**, and should be held to higher standards than the playerbase, an administrator should be banned or noted as a normal player, and there should be no bias in defense of the admin. If you have a problem with an admin's behavior, discuss with the head admin. All administrators are expected to have a solid reason behind their actions. Failure to follow the Admin Policy will result in a strike or removal from the Administration team, all Administrators are expected to know and have the Admin Policy 
-#### 1.2 Be respectful, polite and welcoming.
-Being respectful back to respectful players is important, and in general will help reduce the number of issues you run into as staff. You are expected to try your best to deescalate, rather than escalate situations. As staff, you’re often the first person that a player with an issue will talk to. No matter your opinion on the player, try your best to be respectful towards them.
-#### 1.3 **Do not leak or share sensitive information without permission.**
-This *does* pertain to any information posted in the game admin Discord chats, information discussed in admin chat in-game, as well as PII (IP, HWID) accessible through the central ban DB. This does *not* pertain to basic ban info (time, reason, count), admin notes, or admin log information.
-#### 1.4 **Ban Appeals**
-Ban appeals are covered by the [Banning Policy](./goob-station-banning-policy.md).
-#### 1.5 **Administrators must use their powers in moderation**
-The Administration team must use their powers in moderation ensuring that they do not attempt to abuse obstacles set in place by higher ranks, you will need permission before doing so, in cases of utmost emergency while no game admins+ are online. This also covers commands such as Customvote, and so forth. This includes not giving items to yourself, such as rare in game items like goobcoin.
+## Admin Ranks
+### New Applicants
 
-Example; A trial admin editing variables in a taser, allowing it to shoot debug uplinks, or items of their choice, overcoming the anti-spawn enacted on trialmins by the Head of Staff.
+- You must apply on the forums following the rules and template to have a shot at being a game admin.
+- New applicants will start as trial game admins
+- You may not apply for Moderator while you have any active bans.
+- New Moderators must be at least 18 years old.
+- Full Admins and above may vote from -1 to +1
+- The Head Admins may accept or deny an application regardless of tally based on discretion.
 
-Example; Doing a customvote 3 times in a row within the span of 15 minutes without a reasonable cause to do so. Event votes, Event feedback votes, and admin intervention votes, such as manually restarting the round if the restart breaks, are all reasonable causes.
+### Trial Game Admins
 
-#### **1.6 Administrators must listen to a reasonable request by a head admin or higher.**
-Administrators must listen to what they deem a reasonable request by a head admin or higher, if you personally do not deem the request reasonable, refer it to the Head of Staff and do not act upon it until you get confirmation if the task is reasonable or not.
+Trial game admins are new staff learning the ropes. They are permitted only the most basic of administrative tools and are not permitted to greatly alter the flow of rounds or grant special requests. Trial game admins are welcome to be a part of player reports and ban appeals on the forums even if they weren't involved in the incident - doing so is a great way to show your understanding of the rules and involvement in the project.
 
-##### Reasonable request
-- Being told to stop speaking in LOOC to one player while you're the only administrator on, while there are adminhelps that need attention.
+- Trial game admins are assigned to admin mentors who assist them during their trial phase.
+- As an exception, Moderators may apply permanent bans to players who perform unquestionable acts of grief (e.g. Plasmaflooding as a non-antag), but the moderator is still responsible for alerting admins that this action has been taken.
+- Bans requiring authorization must include the name of the approving admin in the ban reason.
+- Trial game admins have moderator permissions on the Goob Station forum.
+  - They are able to 
+- Trial game admins may be removed from the team after long periods of inactivity at the discretion of Head Admins
 
-##### Unreasonable request
+### Full Admins
 
-- Being told to stop orbiting what you believe is a potential Raider is not reasonable.
+Moderators who have been on the team for at least 30 days without major issues may request to be promoted to full admins, and will receive additional training at that time. Full admins are expected to try and keep rounds engaging without making the station a constantly chaotic place. Full admins are also strongly encouraged to act IC as members of Central Command, issuing reports and guiding the round as the watchful eye of Big Brother.
 
-#### **1.7 Administrators must follow Discord and Server Rules.**
-Goobstation Administrators must follow the Goobstation Discord server rules at all time, if you see someone violate a rule, you should either warn them or time them out for a select amount of time. Administrators are expected to not break any server rules while deadminned or adminned.
-####
-## 2. Game-adminning
-Rules specific to adminning a round of SS14.
-#### 2.1 **Do not ever process a case you are/were a part of.**
-Even if you've started adminning after dying, do not process a case you were involved in. You may ask headmins for permission to do this if there are no other staff online. Otherwise, ahelp yourself and get the other staff to handle it.
-#### 2.2 **Superseded by banning policy**
-Bans and ban appeals are covered by the [Banning Policy](./goob-station-banning-policy.md).
-#### 2.3 **Deadmin when you play the game.**
-Don't misuse your game admin tools to metagame, this is pretty self-explanatory. Do not use your admin powers to message players whilst IC. If something happens that breaks the rules, you should engage with admins as a normal player via the regular ahelp command. Exceptions to this are:
+- Issue their own bans without needing the approval of any other part of the team.
+- Will be granted access to Kibana (enhanced logging capability) upon request to a head admin.
+- Are encouraged to answer and respond to prayers (Keeping a means of RNG on hand to determine your responses keeps things interesting!)
+- May freely trigger random events without seeking approval, so long as they do not dramatically impact the round flow.
+- May host events which are approved by Senior Admins in the #events channel
+- Are given the ability to accept/deny their own appeals on the forums, and are expected to have responded to them within 48 hours
+- Are given the ability lock, relocate and delete posts on the forum
+- Are able to see and take part in hidden discussions on the forums
+- Will be assigned and expected to complete a maximum of one player report per week
 
-- You may start adminning a round after you have died. Do note that policy 2.1 still applies!
-- You may use admintools when running adminevents if necessary, even if you are playing a character for it.
-- You are the only admin online and you choose to play a round, you can re-admin yourself but you should not enable overlay, or do any administrative actions unless admin helped or if admin logs show something concerning, such as a non-antagonist blowing up a welding tank, policy 2.1 still applies.
-#### 2.4 **Admin events should be done in moderation without heavily altering the flow of the round.**
-An "*event*" here is generally meant to be any admin intervention in the round that affects more than a handful of people: spawning a cookie for a prayer *no*, spawning a sentient monkey that runs around and messes with people *yes*.
+### Senior Admins
 
-Heavily round-altering admin events (e.g. powerful wizard invasion, nations) should be voted for by the playerbase with `customvote` and only done on Extended (that means forcing the preset before the round starts!).
+Senior Admins are selected by the Head Admins to advise and train other admins as well as assisting in day-to-day operations.
 
-Events overall should not be something that occur every round. Log what events you've done in Discord (just when & what, and no need to log very minor stuff), and try not to overwhelm players. That said, a lot of lenience is given towards what kinds of events can be run.
+- Senior Admins retain all of the expectations they had as normal Admins.
+- Handles the training of trial game admins, and is expected to be regularly available for such.
+- May approve events but cannot approve their own.
+- Handles the acceptance and denial of Mentor applications (wait at least three days from time of posting)
+- Will be assigned to and expected to assist with the ban appeals of Moderators, retired and on-leave staff.
+- Senior Admins may not overrule others when there is a dispute about rules.
 
-#### 2.5 **Do not interfere unless you are needed.**
-If it looks like the situation will be able to resolve itself, or escalated naturally; and nothing actually actionable has happened, then there is no reason to interfere.
-#### 2.6 **Check with other admins before enacting bans outside of guidelines.**
-Bans and ban appeals are covered by the [Banning Policy](./goob-station-banning-policy.md). Administrators who place bans outside of the guidelines are required to be able to justify the decision  to head admins and head of staffs in the event of a staff complaint. In the event of a ban appeal, the banning admin should be prepared to justify themselves to the entire team. You are not required to justify anything unless asked by another admin until there is an appeal or complaint filed.
-#### 2.7 **Use notes as consideration for punishment, and give notes frequently**
-If a player is AHelped for some behavior, but this behavior skirts the rules and is not explicitly bannable, you should always give them a note for it. When handling AHelps, you should always check their notes before interrogation or applying punishment. If a user is noted to have been skirting the rules multiple times previously in their notes, you may apply a ban for this behavior. Lastly, if a user has more than 4 days on the server, you should also take this into consideration while applying a ban or note. 
-#### 2.8 **Monitor admin helps when online, leave if you have to go AFK for extended periods of time.**
-An administrator should always make an attempt to monitor active admin helps, if you are aware you will go AFK for an extended amount of time of 15-20+ minutes, disconnect so the panic bunker enables. 
+### Head Admins
+
+Head Game Admins are responsible for the whole of the admin team and relating rules/policy.
+
+- Head Admins retain all of the expectations they had as normal Admins
+- Handles the acceptance and denial of new Moderators, as well as the approval of promotions to admin.
+- Assigns player reports weekly, triaging less egregious reports when there are too many.
+- Assigns ban appeals daily
+- Also expected to assist with the ban appeals of Moderators, retired and on-leave staff.
+- Handles any reports involving Moderators/Admins, even if they are reports involving player misconduct.
+- Head Admins have a 1-year term. There are no term limits.
+- Exiting Head Admins may be given the Senior Admin position.
+- The Head Admin role is an elected position, voted on by current Full Admins and up.
+- The vote will end 1 week after it starts, and the candidate(s) with the most votes is elected.
+- Candidates may vote for themselves, but can expect to be mocked for it publicly.
