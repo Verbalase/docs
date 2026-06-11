@@ -174,3 +174,76 @@ There are three varieties of permanent bans that may be issued by admins:
 Vouch Policy
 - Vouches are to be given out by the head game admins only.
 - Vouches are to be accepted from reputable servers with similar rules only. This is determined at the head game admin team's discretion; ask beforehand if you're not sure.
+
+## Special Conduct and Policies
+### Creation of additional Antagonists
+Antagonists ***should not*** be added during extended rounds, but random events that do not trigger antagonists may still be manipulated.
+- Mid-round antagonists should only be added when it is sensible to make the round more interesting (usually when existing antags are dead or ineffective)
+- Mid-round antagonists should almost always be randomly selected.
+- Admins manipulating antagonist spawning may not take the antagonist roles they have influenced or created.
+
+### Ending rounds
+Rounds should be allowed to conclude naturally under most circumstances. However, rounds that run too long or have substantial issues may be artificially pushed towards their natural end under these guidelines.
+#### When to encourage a round to end
+- Rounds that exceed 90-minutes that have no clear end in sight
+- Issues with the server that negatively impact game performance and/or player experience
+- To accommodate a scheduled admin event
+- To accommodate important security/bug fixes (At a maintainer's discretion)
+- To accommodate potentially unstable/important test merges (At a maintainer's discretion)
+
+#### How to encourage a round to end
+- Coercing command staff to complete station objectives or to evacuate through roleplay means (Sending a CC official, secret announcements, etc.)
+- Triggering minor "random" events and creating mid-round antagonists to help encourage an evacuation
+- Triggering severe "random" events and/or creating failures within established station infrastructure (Such as disabling telecommunications)
+- If all else fails, total station destruction and/or round-ending antagonists (Lone Operatives are preferable) may be spawned.
+
+### Event protocol
+Admin Events are large-scale modifications to the round that would dramatically affect the typical flow of the game. When doing an admin event, you must do the following:
+
+- Before the event even begins a player vote must be held (OOC Tab) with a majority in favor of participating in the event.
+  - The vote should not specify the details of the event, only that one is to be held.
+- An admin announcement must be made explaining that an admin event is occurring, any information or expectations from the players must also be included. If an exemption to any rules is required, that must be stated as well.
+- The admin(s) holding the event and managing it’s construction are responsible to make sure the event and round are done properly.
+- Events must have the approval of a Senior Admin or higher before occurring.
+  - Events that change the rules must be approved by a Head Admin
+- Actions with do not dramatically affect normal round flow are not considered to be an admin event and do not require authorization.
+- Examples of actions which are not an event requiring senior approval:
+  - Forcing a secret game mode before a round has started, so long as the mode being forced is in rotation.
+  - Triggering a random event within a current round
+  - Creating a custom antagonist which can operate within normal antagonist conduct and does not alter the normal flow of a round for others
+ 
+### Antagonist Tokens
+Antagonist tokens are granted only in two rare circumstances:
+
+    When the player's antagonist round is inappropriately affected by an Administrator's interference.
+    Admins may grant the token at the direction of the Head Administrators.
+
+Players which have antag rounds griefed or ruined by other influences may have up to 100 antag rep returned to them.
+Antagonist tokens may not be redeemed on extended or conversion rounds. You should not disclose the exact round type when refusing to grant a token redemption
+Antagonist tokens may not be traded
+Token redemptions must take place in the lobby, tokens cannot be redeemed once a player has entered the round
+Antagonist tokens may only be redeemed for the following roles:
+
+    Traitor
+    Changeling
+    Heretic
+    Malfunctioning AI
+    Blood Brother (choose partner)
+    Abductor(s) (choose partner, or solo)
+    Revenant
+    Morph
+    Nightmare
+    Ninja
+    Obsessed
+    Slime
+    Sentient Station Pet or Monkey (act as an antagonist if you wish)
+
+Antagonist token may only be redeemed for the following roles if the same role is not already present in the ongoing round. The exact reasoning for the denial should be withheld to prevent meta-gaming.
+
+    Blob
+    Space Dragon
+    Wizard
+    Swarmer
+    Lone Operative (Should not be added if there are nuke-ops)
+
+Admins have discretion over when antagonist tokens can be redeemed; if the round is too chaotic, they can defer redemption to another round. The exact reasoning for deferral should be kept vague to prevent players from guessing which antagonists are present in the round.
