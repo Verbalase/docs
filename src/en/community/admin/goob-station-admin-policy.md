@@ -140,3 +140,37 @@ Normal antagonists should generally not face these unless taunting Central Comma
 - Deathsquad
 ```
 
+#### Notes
+- Notes are a form of record, not a punishment. Notes should be issued to document any incidents of breaking rules that did not result in bans.
+- Read the notes to determine if they’re relevant to the player’s current misconduct.
+- When writing notes, describe the misconduct and how the player responded. Be sure to include the rules broken, the player's level of cooperation in the ticket, and any information or warnings given to the player.
+- All notes involving rule breaks should be visible to the player. Secret notes should be used only for unconfirmed issues or to document suspicious occurrences that are not rule breaks.
+- Do not show a player someone else's notes, be it through Discord or in-game means. If they want to share it, they can do so through the admin remarks tab in-game.
+- Notes can only be appealed if the note is invalid AND it has been less than three months since it was applied. This does not include wrongfully applied ban-notes, as those should have had their record already deleted, as written in the bans section.
+
+#### Bans
+- Job bans are to be given out when a player has shown to be too incompetent or unwilling to learn to play a role properly without compromising the game for others.
+  - If a player is being banned for an inability to be responsible with positions of authority, the player should be banned from all of Security and Head roles.
+  - If a player is being banned for an inability to follow silicon laws, the player should be banned from AI, Cyborg, and Positronic Brain.
+  - If a player is violating antagonist conduct, they should be banned from ALL antagonist roles, not just the one they are violating.
+  - If a player is abusing gimmicky or assistant roles to be disruptive, they should be banned from ALL of them (Clown, Mime, Gimmick).
+  - Players circumventing job bans via job re-assignment should be given a server ban.
+- Server bans are to be given out when a player has shown to be non-compliant with our rules or is actively malicious towards the server, the staff, or other players.
+  - All refusals to follow rules, regardless of reasoning, should be met with an immediate permanent ban.
+- Repeat offenses will be met with escalating punishment within the banning policy.
+- Wrongfully applied bans that have been successfully appealed do not count towards escalating punishment, and should have the record hidden.
+- Appealed bans that were not wrongfully applied remain on the player's record.
+
+### Permanent Bans
+
+There are three varieties of permanent bans that may be issued by admins:
+
+- Indefinite until appealed - for players who have disconnected mid-ticket or otherwise need to be forced to explain some situation on the forums, or if applied according to the banning policy. These bans may be lifted at the banning admin’s discretion, just like other normal bans are.
+- Soft voucher ban - Issued due to continued poor behavior, extreme griefing, or otherwise as a direct result of player actions. Unless the ban is found to be outrageously unwarranted by staff, it will require a 2-month waiting period and a vouch for good behavior from another server before it can be lifted. Only head game admins may handle appeals involving “permanent until appeal with vouch” bans, and they are not subject to individual admin discretion to be lifted early.
+- Hard voucher ban - Issued due to continued poor behavior, extreme griefing, ban evasion, or otherwise as a direct result of player actions. Unless the ban is found to be outrageously unwarranted by staff, these bans will require a 6 month waiting period and a vouch for good behavior from another server before the ban will be lifted. Only head game admins may handle appeals involving “permanent until appeal with vouch” bans, and they are not subject to individual admin discretion to be lifted early.
+- Total community removal - Issued to players who are thought to be irredeemable. If you have been handed one of these, you have truly messed up and will not be allowed back into the community under any circumstances. Total community removals are reserved for players who have been permanently banned again after receiving a vouch, those who repeatedly evade bans or those who have been voted out of the community by staff.
+- R9 removal - Issued to players who are found to be under our age requirement. These bans may only be issued by Head Administrators and are to be suppressed to prevent them from being listed by our API. If the exact age is known, the ban can be set to automatically expire when the player is presumed to meet our requirements. Otherwise, the ban is indefinite.
+
+Vouch Policy
+- Vouches are to be given out by the head game admins only.
+- Vouches are to be accepted from reputable servers with similar rules only. This is determined at the head game admin team's discretion; ask beforehand if you're not sure.
