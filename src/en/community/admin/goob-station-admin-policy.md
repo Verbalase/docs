@@ -1,7 +1,7 @@
 # Goob Station Admin Policy
 
 ```admonish warning
-This applies only to our Goob Station server.
+Our admin policy at Goob Station only applies to the Goob Station admin team.
 ```
 
 ## Admin Ranks
