@@ -200,50 +200,43 @@ Rounds should be allowed to conclude naturally under most circumstances. However
 ### Event protocol
 Admin Events are large-scale modifications to the round that would dramatically affect the typical flow of the game. When doing an admin event, you must do the following:
 
-- Before the event even begins a player vote must be held (OOC Tab) with a majority in favor of participating in the event.
+- Before the event even begins, a player vote must be held (OOC Tab) with a majority in favor of participating in the event.
   - The vote should not specify the details of the event, only that one is to be held.
-- An admin announcement must be made explaining that an admin event is occurring, any information or expectations from the players must also be included. If an exemption to any rules is required, that must be stated as well.
-- The admin(s) holding the event and managing it’s construction are responsible to make sure the event and round are done properly.
-- Events must have the approval of a Senior Admin or higher before occurring.
+- An admin announcement must be made explaining that an admin event is occurring, and any information or expectations from the players must also be included. If an exemption to any rules is required, that must be stated as well.
+- The admin(s) holding the event and managing its construction are responsible for making sure the event and round are done properly.
+- Major events must have the approval of a senior game admin or higher before occurring.
   - Events that change the rules must be approved by a Head Admin
-- Actions with do not dramatically affect normal round flow are not considered to be an admin event and do not require authorization.
-- Examples of actions which are not an event requiring senior approval:
+- Actions that do not dramatically affect normal round flow are not considered to be an admin event and do not require authorization.
+- Examples of actions that are not events requiring senior approval:
   - Forcing a secret game mode before a round has started, so long as the mode being forced is in rotation.
   - Triggering a random event within a current round
-  - Creating a custom antagonist which can operate within normal antagonist conduct and does not alter the normal flow of a round for others
+  - Creating a custom antagonist that can operate within normal antagonist conduct and does not alter the normal flow of a round for others
  
 ### Antagonist Tokens
 Antagonist tokens are granted only in two rare circumstances:
-
-    When the player's antagonist round is inappropriately affected by an Administrator's interference.
-    Admins may grant the token at the direction of the Head Administrators.
-
-Players which have antag rounds griefed or ruined by other influences may have up to 100 antag rep returned to them.
+- When the player's antagonist round is inappropriately affected by an Administrator's interference.
+- Admins may grant the token at the direction of the head game administrators.
+Players whose antagonist rounds are griefed or ruined by other influences may be granted an antagonist token.
 Antagonist tokens may not be redeemed on extended or conversion rounds. You should not disclose the exact round type when refusing to grant a token redemption
 Antagonist tokens may not be traded
-Token redemptions must take place in the lobby, tokens cannot be redeemed once a player has entered the round
+Token redemptions must take place in the lobby; tokens cannot be redeemed once a player has entered the round
+
 Antagonist tokens may only be redeemed for the following roles:
+- Traitor
+- Changeling
+- Heretic
+- Abductor(s) (choose partner, or solo)
+- Revenant
+- Ninja
+- Slime
+- Sentient Station Pet or Monkey (act as an antagonist if you wish)
 
-    Traitor
-    Changeling
-    Heretic
-    Malfunctioning AI
-    Blood Brother (choose partner)
-    Abductor(s) (choose partner, or solo)
-    Revenant
-    Morph
-    Nightmare
-    Ninja
-    Obsessed
-    Slime
-    Sentient Station Pet or Monkey (act as an antagonist if you wish)
-
-Antagonist token may only be redeemed for the following roles if the same role is not already present in the ongoing round. The exact reasoning for the denial should be withheld to prevent meta-gaming.
-
-    Blob
-    Space Dragon
-    Wizard
-    Swarmer
-    Lone Operative (Should not be added if there are nuke-ops)
+An antagonist token may only be redeemed for the following roles if the same role is not already present in the ongoing round. The exact reasoning for the denial should be withheld to prevent meta-gaming.
+- Blob
+- Space Dragon
+- Wizard
+- Lone Operative (Should not be added if there are nuke-ops)
 
 Admins have discretion over when antagonist tokens can be redeemed; if the round is too chaotic, they can defer redemption to another round. The exact reasoning for deferral should be kept vague to prevent players from guessing which antagonists are present in the round.
+
+
