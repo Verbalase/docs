@@ -59,3 +59,4 @@ Head Game Admins are responsible for the entire admin team and the rules/policie
 - The Head Admin role is an elected position, voted on by current Full Admins and up.
 - The vote will end 1 week after it starts, and the candidate(s) with the most votes is elected.
 - Candidates may vote for themselves, but can expect to be mocked for it publicly.
+
