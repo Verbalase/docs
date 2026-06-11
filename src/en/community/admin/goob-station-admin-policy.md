@@ -198,7 +198,7 @@ Rounds should be allowed to conclude naturally under most circumstances. However
 - If all else fails, total station destruction and/or round-ending antagonists (Lone Operatives are preferable) may be spawned.
 
 ### Event protocol
-Admin Events are large-scale modifications to the round that would dramatically affect the typical flow of the game. When doing an admin event, you must do the following:
+Admin Events are large-scale modifications to the round that would dramatically affect the game's typical flow. When doing an admin event, you must do the following:
 
 - Before the event even begins, a player vote must be held (OOC Tab) with a majority in favor of participating in the event.
   - The vote should not specify the details of the event, only that one is to be held.
@@ -239,4 +239,23 @@ An antagonist token may only be redeemed for the following roles if the same rol
 
 Admins have discretion over when antagonist tokens can be redeemed; if the round is too chaotic, they can defer redemption to another round. The exact reasoning for deferral should be kept vague to prevent players from guessing which antagonists are present in the round.
 
+### Admin Strikes and Demotion
+Admin strikes are issued by a Head Admin as a punishment for breach of conduct.
+When an Admin receives a total of three recent active strikes, they are to be demoted from their position immediately.
 
+Game administrators may also be removed at any time, at the discretion of the head game administrators.
+
+Violating the Admin Conduct will be judged based on what happened, how it happened, and external factors
+Admin strikes are removed by head game administrators through a unanimous agreement to repeal them.
+The demotions of senior game administrators are to be handled by the head game administrators. Depending on the strike(s), they may be demoted to Admin or removed from staff completely.
+
+### Legal and Operations Policy
+The contents of administrative/staff channels are protected and should not be released without the express authorization of relevant project leadership and consent of all parties involved.
+  - Game Logs may only be provided after sufficient sanitization, including the removal of Personal Information.
+  - Game Logs may only be provided for official purposes.
+
+#### Personally Identifiable Information (PII)
+- This includes information such as Hardware Identifiers, IP Addresses, as well as other sensitive identifying information.
+- Player data must NEVER be released without the express consent of the head game administrators.
+- Staff is prohibited from requesting IDs, photos, or any other directly identifiable information, even for the purposes of age verification.
+- Malicious use of data will result in immediate, irrevocable ejection from the community and possible legal action.
