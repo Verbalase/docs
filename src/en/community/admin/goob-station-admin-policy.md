@@ -9,28 +9,25 @@ Our admin policy at Goob Station only applies to the Goob Station admin team.
 
 - You must apply on the forums following the rules and template to have a shot at being a game admin.
 - Accepted applicants will start as trial game admins.
-- You may not apply for trial game admin while you have any active bans.
+- You may not apply for trial game admin while you have any active bans or any recent bans within the last two months.
 - Applicants must be at least 18 years old.
-- Head game admins may vote from -1 to +1
 - The Head Admins may accept or deny an application regardless of tally based on discretion.
+- Full game administrators vote for applicants they want to accept or deny.
 
 ### Trial Game Admins
 
 Trial game admins are new staff learning the ropes. They are permitted only the most basic of administrative tools and are not permitted to greatly alter the flow of rounds or grant special requests. Trial game admins are welcome to be a part of player reports and ban appeals on the forums, even if they weren't involved in the incident - doing so is a great way to show your understanding of the rules and involvement in the project.
 
 - Trial game admins are assigned to admin mentors who assist them during their trial phase.
-- As an exception, Moderators may apply permanent bans to players who perform unquestionable acts of grief (e.g., plasmaflooding as a non-antag), but the moderator is still responsible for alerting admins that this action has been taken.
 - Bans requiring authorization must include the name of the approving admin in the ban reason.
 - Trial game admins have moderator permissions on the Goob Station forum.
-  - They are able to 
-- Trial game admins may be removed from the team after long periods of inactivity at the discretion of Head Admins
 
 ### Full Admins
 
 Trial game admins who have successfully passed their trial phase will be promoted to full admin status. Full admins are expected to try to keep rounds engaging without making the station constantly chaotic. Full admins are also strongly encouraged to act IC as members of Central Command, issuing reports and guiding the round.
 
 - Will be granted extra permissions
-- Are encouraged to answer and respond to prayers (Keeping a means of RNG on hand to determine your responses keeps things interesting!)
+- They encouraged to answer and respond to prayers (Keeping a means of RNG on hand to determine your responses keeps things interesting!)
 - Are given the ability to lock, relocate, and delete posts on the forum
 - Are able to see and take part in hidden discussions restricted to full admins.
 
