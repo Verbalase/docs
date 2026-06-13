@@ -1,4 +1,4 @@
-# Goob Station Admin Policy
+# Goob Station Admin Policy & Conduct
 
 ```admonish warning
 Our admin policy at Goob Station only applies to the Goob Station admin team.
@@ -14,47 +14,48 @@ Our admin policy at Goob Station only applies to the Goob Station admin team.
 - The Head Admins may accept or deny an application regardless of tally based on discretion.
 - Full game administrators vote for applicants they want to accept or deny.
 
-### Trial Game Admins
+### Trial Game Administrator
 
 Trial game admins are new staff learning the ropes. They are permitted only the most basic of administrative tools and are not permitted to greatly alter the flow of rounds or grant special requests. Trial game admins are welcome to be a part of player reports and ban appeals on the forums, even if they weren't involved in the incident - doing so is a great way to show your understanding of the rules and involvement in the project.
 
 - Trial game admins are assigned to admin mentors who assist them during their trial phase.
-- Bans requiring authorization must include the name of the approving admin in the ban reason.
-- Trial game admins have moderator permissions on the Goob Station forum.
+- Should only possess restricted permissions.
+- Should not host admin events.
 
-### Full Admins
+### Game Administrator
 
 Trial game admins who have successfully passed their trial phase will be promoted to full admin status. Full admins are expected to try to keep rounds engaging without making the station constantly chaotic. Full admins are also strongly encouraged to act IC as members of Central Command, issuing reports and guiding the round.
 
-- Will be granted extra permissions
-- They encouraged to answer and respond to prayers (Keeping a means of RNG on hand to determine your responses keeps things interesting!)
-- Are given the ability to lock, relocate, and delete posts on the forum
-- Are able to see and take part in hidden discussions restricted to full admins.
+- They will be granted extra permissions.
+- They are encouraged to answer and respond to in-game player requests (keeping a means of RNG on hand to determine your responses keeps things interesting!)
+- They are given the ability to lock, relocate, and delete posts on the forum.
+- They are able to see and take part in hidden discussions restricted to full admins.
+- They may host events with permission from senior or head game administrators.
 
-### Senior Game Admins
+### Senior Game Administrator
 
-Senior Admins are selected by the Head Admins to advise and train other admins, as well as assist in day-to-day operations.
+Senior game administrators are selected by the Head Admins to advise and train other admins, as well as assist in day-to-day operations.
 
-- Senior game admins retain all of the expectations they had as normal Admins.
+- Senior game administrators retain all of the expectations they had as normal Admins.
 - Assists in handling the training of trial game admins, and is expected to be regularly available for such.
-- Handles the acceptance and denial of Mentor applications (wait at least three days from time of posting)
+- Are expected to help with the admin application voting.
 - Will be assigned to and expected to assist with the ban appeals of game admins, retired, and on-leave staff.
 - Senior game admins may not overrule others when there is a dispute about rules.
+- Are trusted with PII, but should not show any PII without 
 
-### Head Admins
+### Head Game Administrator
 
-Head Game Admins are responsible for the entire admin team and the rules/policies.
+Head Game Administrators are responsible for the entire admin team and the rules/policies.
 
-- Head Admins retain all of the expectations they had as normal Admins
+- Head game administrators retain all of the expectations of each admin rank.
 - Handles the acceptance and denial of trial game admin applicants, as well as the approval of promotions to admin.
-- Assigns player reports weekly, triaging less egregious reports when there are too many.
+- Notifies about player reports weekly, triaging less egregious reports when there are too many.
 - Handles ban appeals daily
 - Also expected to assist with ban appeals.
-- Handles any reports involving Moderators/Admins, even if they are reports involving player misconduct.
-- Head Admins have a 1-year term. There are no term limits.
+- Handles any reports involving game admins, even if they are reports involving player misconduct.
 - Exiting Head Admins may be given the Senior Admin position.
 - The Head Admin role is an elected position, voted on by current Full Admins and up.
-- The vote will end 1 week after it starts, and the candidate(s) with the most votes are elected.
+- The vote will last however long the head of staff team decides, and the candidate(s) with the most votes are elected.
 - Candidates may vote for themselves, but can expect to be mocked for it publicly.
 
 ## General Conduct and Policies
@@ -158,13 +159,13 @@ Normal antagonists should generally not face these unless taunting Central Comma
 - Wrongfully applied bans that have been successfully appealed do not count towards escalating punishment, and should have the record hidden.
 - Appealed bans that were not wrongfully applied remain on the player's record.
 
-### Permanent Bans
+### Indefinite Bans
 
-There are three varieties of permanent bans that may be issued by admins:
+There are five varieties of permanent bans that may be issued by admins:
 
 - Indefinite until appealed - for players who have disconnected mid-ticket or otherwise need to be forced to explain some situation on the forums, or if applied according to the banning policy. These bans may be lifted at the banning admin’s discretion, just like other normal bans are.
 - Soft voucher ban - Issued due to continued poor behavior, extreme griefing, or otherwise as a direct result of player actions. Unless the ban is found to be outrageously unwarranted by staff, it will require a 2-month waiting period and a vouch for good behavior from another server before it can be lifted. Only head game admins may handle appeals involving “permanent until appeal with vouch” bans, and they are not subject to individual admin discretion to be lifted early.
-- Hard voucher ban - Issued due to continued poor behavior, extreme griefing, ban evasion, or otherwise as a direct result of player actions. Unless the ban is found to be outrageously unwarranted by staff, these bans will require a 6 month waiting period and a vouch for good behavior from another server before the ban will be lifted. Only head game admins may handle appeals involving “permanent until appeal with vouch” bans, and they are not subject to individual admin discretion to be lifted early.
+- Hard voucher ban - Issued due to continued poor behavior, extreme griefing, ban evasion, or otherwise as a direct result of player actions. Unless the ban is found to be outrageously unwarranted by staff, these bans will require a 6-month waiting period and a vouch for good behavior from another server before the ban will be lifted. Only head game admins may handle appeals involving “permanent until appeal with vouch” bans, and they are not subject to individual admin discretion to be lifted early.
 - Total community removal - Issued to players who are thought to be irredeemable. If you have been handed one of these, you have truly messed up and will not be allowed back into the community under any circumstances. Total community removals are reserved for players who have been permanently banned again after receiving a vouch, those who repeatedly evade bans or those who have been voted out of the community by staff.
 - R9 removal - Issued to players who are found to be under our age requirement. These bans may only be issued by Head Administrators and are to be suppressed to prevent them from being listed by our API. If the exact age is known, the ban can be set to automatically expire when the player is presumed to meet our requirements. Otherwise, the ban is indefinite.
 
